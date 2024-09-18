@@ -2,7 +2,7 @@
 Python Keylogger
 
 Installing pynput:
-``` bash
+```
 pip install pynput
 ```
 or
