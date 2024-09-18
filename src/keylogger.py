@@ -12,7 +12,7 @@ def onKeyPress(key):
 def onKeyRelease(key):
     global keys, charCount  #Access global variables
 
-    if key == Key.esc or "!" or "?" or "@": #Please just don't remove this, don't Dox people but it's "your code" (according to the UNLICENSE) so you're the one going to jail.
+    if key == Key.esc: #Quit program
         return False
 
     else:
